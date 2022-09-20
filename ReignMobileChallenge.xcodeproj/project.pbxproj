@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98594BA028DA4A0400EB28CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98594B9F28DA4A0400EB28CB /* AppDelegate.swift */; };
+		98594BA228DA4A0400EB28CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98594BA128DA4A0400EB28CB /* SceneDelegate.swift */; };
+		98594BA428DA4A0400EB28CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98594BA328DA4A0400EB28CB /* ViewController.swift */; };
+		98594BA728DA4A0400EB28CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98594BA528DA4A0400EB28CB /* Main.storyboard */; };
+		98594BA928DA4A0600EB28CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98594BA828DA4A0600EB28CB /* Assets.xcassets */; };
+		98594BAC28DA4A0600EB28CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98594BAA28DA4A0600EB28CB /* LaunchScreen.storyboard */; };
+		98594BB728DA4A0600EB28CB /* ReignMobileChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98594BB628DA4A0600EB28CB /* ReignMobileChallengeTests.swift */; };
+		98594BC128DA4A0600EB28CB /* ReignMobileChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98594BC028DA4A0600EB28CB /* ReignMobileChallengeUITests.swift */; };
+		98594BC328DA4A0600EB28CB /* ReignMobileChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98594BC228DA4A0600EB28CB /* ReignMobileChallengeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98594BB328DA4A0600EB28CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98594B9428DA4A0400EB28CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98594B9B28DA4A0400EB28CB;
+			remoteInfo = ReignMobileChallenge;
+		};
+		98594BBD28DA4A0600EB28CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98594B9428DA4A0400EB28CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98594B9B28DA4A0400EB28CB;
+			remoteInfo = ReignMobileChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98594B9C28DA4A0400EB28CB /* ReignMobileChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReignMobileChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98594B9F28DA4A0400EB28CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98594BA128DA4A0400EB28CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		98594BA328DA4A0400EB28CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98594BA628DA4A0400EB28CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98594BA828DA4A0600EB28CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98594BAB28DA4A0600EB28CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98594BAD28DA4A0600EB28CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98594BB228DA4A0600EB28CB /* ReignMobileChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReignMobileChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98594BB628DA4A0600EB28CB /* ReignMobileChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReignMobileChallengeTests.swift; sourceTree = "<group>"; };
+		98594BBC28DA4A0600EB28CB /* ReignMobileChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReignMobileChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98594BC028DA4A0600EB28CB /* ReignMobileChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReignMobileChallengeUITests.swift; sourceTree = "<group>"; };
+		98594BC228DA4A0600EB28CB /* ReignMobileChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReignMobileChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98594B9928DA4A0400EB28CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98594BAF28DA4A0600EB28CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98594BB928DA4A0600EB28CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98594B9328DA4A0400EB28CB = {
+			isa = PBXGroup;
+			children = (
+				98594B9E28DA4A0400EB28CB /* ReignMobileChallenge */,
+				98594BB528DA4A0600EB28CB /* ReignMobileChallengeTests */,
+				98594BBF28DA4A0600EB28CB /* ReignMobileChallengeUITests */,
+				98594B9D28DA4A0400EB28CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98594B9D28DA4A0400EB28CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98594B9C28DA4A0400EB28CB /* ReignMobileChallenge.app */,
+				98594BB228DA4A0600EB28CB /* ReignMobileChallengeTests.xctest */,
+				98594BBC28DA4A0600EB28CB /* ReignMobileChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98594B9E28DA4A0400EB28CB /* ReignMobileChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				98594B9F28DA4A0400EB28CB /* AppDelegate.swift */,
+				98594BA128DA4A0400EB28CB /* SceneDelegate.swift */,
+				98594BA328DA4A0400EB28CB /* ViewController.swift */,
+				98594BA528DA4A0400EB28CB /* Main.storyboard */,
+				98594BA828DA4A0600EB28CB /* Assets.xcassets */,
+				98594BAA28DA4A0600EB28CB /* LaunchScreen.storyboard */,
+				98594BAD28DA4A0600EB28CB /* Info.plist */,
+			);
+			path = ReignMobileChallenge;
+			sourceTree = "<group>";
+		};
+		98594BB528DA4A0600EB28CB /* ReignMobileChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				98594BB628DA4A0600EB28CB /* ReignMobileChallengeTests.swift */,
+			);
+			path = ReignMobileChallengeTests;
+			sourceTree = "<group>";
+		};
+		98594BBF28DA4A0600EB28CB /* ReignMobileChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98594BC028DA4A0600EB28CB /* ReignMobileChallengeUITests.swift */,
+				98594BC228DA4A0600EB28CB /* ReignMobileChallengeUITestsLaunchTests.swift */,
+			);
+			path = ReignMobileChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98594B9B28DA4A0400EB28CB /* ReignMobileChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98594BC628DA4A0600EB28CB /* Build configuration list for PBXNativeTarget "ReignMobileChallenge" */;
+			buildPhases = (
+				98594B9828DA4A0400EB28CB /* Sources */,
+				98594B9928DA4A0400EB28CB /* Frameworks */,
+				98594B9A28DA4A0400EB28CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReignMobileChallenge;
+			productName = ReignMobileChallenge;
+			productReference = 98594B9C28DA4A0400EB28CB /* ReignMobileChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98594BB128DA4A0600EB28CB /* ReignMobileChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98594BC928DA4A0600EB28CB /* Build configuration list for PBXNativeTarget "ReignMobileChallengeTests" */;
+			buildPhases = (
+				98594BAE28DA4A0600EB28CB /* Sources */,
+				98594BAF28DA4A0600EB28CB /* Frameworks */,
+				98594BB028DA4A0600EB28CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98594BB428DA4A0600EB28CB /* PBXTargetDependency */,
+			);
+			name = ReignMobileChallengeTests;
+			productName = ReignMobileChallengeTests;
+			productReference = 98594BB228DA4A0600EB28CB /* ReignMobileChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98594BBB28DA4A0600EB28CB /* ReignMobileChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98594BCC28DA4A0600EB28CB /* Build configuration list for PBXNativeTarget "ReignMobileChallengeUITests" */;
+			buildPhases = (
+				98594BB828DA4A0600EB28CB /* Sources */,
+				98594BB928DA4A0600EB28CB /* Frameworks */,
+				98594BBA28DA4A0600EB28CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98594BBE28DA4A0600EB28CB /* PBXTargetDependency */,
+			);
+			name = ReignMobileChallengeUITests;
+			productName = ReignMobileChallengeUITests;
+			productReference = 98594BBC28DA4A0600EB28CB /* ReignMobileChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98594B9428DA4A0400EB28CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					98594B9B28DA4A0400EB28CB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					98594BB128DA4A0600EB28CB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 98594B9B28DA4A0400EB28CB;
+					};
+					98594BBB28DA4A0600EB28CB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 98594B9B28DA4A0400EB28CB;
+					};
+				};
+			};
+			buildConfigurationList = 98594B9728DA4A0400EB28CB /* Build configuration list for PBXProject "ReignMobileChallenge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98594B9328DA4A0400EB28CB;
+			productRefGroup = 98594B9D28DA4A0400EB28CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98594B9B28DA4A0400EB28CB /* ReignMobileChallenge */,
+				98594BB128DA4A0600EB28CB /* ReignMobileChallengeTests */,
+				98594BBB28DA4A0600EB28CB /* ReignMobileChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98594B9A28DA4A0400EB28CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98594BAC28DA4A0600EB28CB /* LaunchScreen.storyboard in Resources */,
+				98594BA928DA4A0600EB28CB /* Assets.xcassets in Resources */,
+				98594BA728DA4A0400EB28CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98594BB028DA4A0600EB28CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98594BBA28DA4A0600EB28CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98594B9828DA4A0400EB28CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98594BA428DA4A0400EB28CB /* ViewController.swift in Sources */,
+				98594BA028DA4A0400EB28CB /* AppDelegate.swift in Sources */,
+				98594BA228DA4A0400EB28CB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98594BAE28DA4A0600EB28CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98594BB728DA4A0600EB28CB /* ReignMobileChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98594BB828DA4A0600EB28CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98594BC328DA4A0600EB28CB /* ReignMobileChallengeUITestsLaunchTests.swift in Sources */,
+				98594BC128DA4A0600EB28CB /* ReignMobileChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98594BB428DA4A0600EB28CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98594B9B28DA4A0400EB28CB /* ReignMobileChallenge */;
+			targetProxy = 98594BB328DA4A0600EB28CB /* PBXContainerItemProxy */;
+		};
+		98594BBE28DA4A0600EB28CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98594B9B28DA4A0400EB28CB /* ReignMobileChallenge */;
+			targetProxy = 98594BBD28DA4A0600EB28CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98594BA528DA4A0400EB28CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98594BA628DA4A0400EB28CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98594BAA28DA4A0600EB28CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98594BAB28DA4A0600EB28CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98594BC428DA4A0600EB28CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98594BC528DA4A0600EB28CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98594BC728DA4A0600EB28CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReignMobileChallenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = josebustamante.ReignMobileChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98594BC828DA4A0600EB28CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReignMobileChallenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = josebustamante.ReignMobileChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98594BCA28DA4A0600EB28CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = josebustamante.ReignMobileChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReignMobileChallenge.app/ReignMobileChallenge";
+			};
+			name = Debug;
+		};
+		98594BCB28DA4A0600EB28CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = josebustamante.ReignMobileChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReignMobileChallenge.app/ReignMobileChallenge";
+			};
+			name = Release;
+		};
+		98594BCD28DA4A0600EB28CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = josebustamante.ReignMobileChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReignMobileChallenge;
+			};
+			name = Debug;
+		};
+		98594BCE28DA4A0600EB28CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = josebustamante.ReignMobileChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReignMobileChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98594B9728DA4A0400EB28CB /* Build configuration list for PBXProject "ReignMobileChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98594BC428DA4A0600EB28CB /* Debug */,
+				98594BC528DA4A0600EB28CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98594BC628DA4A0600EB28CB /* Build configuration list for PBXNativeTarget "ReignMobileChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98594BC728DA4A0600EB28CB /* Debug */,
+				98594BC828DA4A0600EB28CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98594BC928DA4A0600EB28CB /* Build configuration list for PBXNativeTarget "ReignMobileChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98594BCA28DA4A0600EB28CB /* Debug */,
+				98594BCB28DA4A0600EB28CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98594BCC28DA4A0600EB28CB /* Build configuration list for PBXNativeTarget "ReignMobileChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98594BCD28DA4A0600EB28CB /* Debug */,
+				98594BCE28DA4A0600EB28CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98594B9428DA4A0400EB28CB /* Project object */;
+}
