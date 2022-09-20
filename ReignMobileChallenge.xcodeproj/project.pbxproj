@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9821C37528DA504900747AE6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9821C37428DA504900747AE6 /* Alamofire */; };
+		9821C37728DA505F00747AE6 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821C37628DA505F00747AE6 /* Endpoints.swift */; };
+		9821C37E28DA514000747AE6 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821C37D28DA514000747AE6 /* CommentsViewController.swift */; };
+		9821C38128DA520000747AE6 /* CommentsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821C38028DA520000747AE6 /* CommentsViewCell.swift */; };
+		9821C38328DA55EB00747AE6 /* CommentsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821C38228DA55EB00747AE6 /* CommentsResponse.swift */; };
+		9821C38628DA56E500747AE6 /* CommentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821C38528DA56E500747AE6 /* CommentsViewModel.swift */; };
+		9821C38928DA5FA400747AE6 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821C38828DA5FA400747AE6 /* WebViewController.swift */; };
+		9821C38C28DA6A4F00747AE6 /* Navbar+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821C38B28DA6A4F00747AE6 /* Navbar+extension.swift */; };
+		9821C38E28DA740F00747AE6 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821C38D28DA740F00747AE6 /* Date+Extension.swift */; };
 		98594BA028DA4A0400EB28CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98594B9F28DA4A0400EB28CB /* AppDelegate.swift */; };
 		98594BA228DA4A0400EB28CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98594BA128DA4A0400EB28CB /* SceneDelegate.swift */; };
 		98594BA428DA4A0400EB28CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98594BA328DA4A0400EB28CB /* ViewController.swift */; };
@@ -16,6 +25,7 @@
 		98594BB728DA4A0600EB28CB /* ReignMobileChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98594BB628DA4A0600EB28CB /* ReignMobileChallengeTests.swift */; };
 		98594BC128DA4A0600EB28CB /* ReignMobileChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98594BC028DA4A0600EB28CB /* ReignMobileChallengeUITests.swift */; };
 		98594BC328DA4A0600EB28CB /* ReignMobileChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98594BC228DA4A0600EB28CB /* ReignMobileChallengeUITestsLaunchTests.swift */; };
+		98594BD128DA4FDC00EB28CB /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98594BD028DA4FDC00EB28CB /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9821C37628DA505F00747AE6 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		9821C37D28DA514000747AE6 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		9821C38028DA520000747AE6 /* CommentsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewCell.swift; sourceTree = "<group>"; };
+		9821C38228DA55EB00747AE6 /* CommentsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsResponse.swift; sourceTree = "<group>"; };
+		9821C38528DA56E500747AE6 /* CommentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewModel.swift; sourceTree = "<group>"; };
+		9821C38828DA5FA400747AE6 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		9821C38B28DA6A4F00747AE6 /* Navbar+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Navbar+extension.swift"; sourceTree = "<group>"; };
+		9821C38D28DA740F00747AE6 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		98594B9C28DA4A0400EB28CB /* ReignMobileChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReignMobileChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98594B9F28DA4A0400EB28CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98594BA128DA4A0400EB28CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +67,7 @@
 		98594BBC28DA4A0600EB28CB /* ReignMobileChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReignMobileChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98594BC028DA4A0600EB28CB /* ReignMobileChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReignMobileChallengeUITests.swift; sourceTree = "<group>"; };
 		98594BC228DA4A0600EB28CB /* ReignMobileChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReignMobileChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98594BD028DA4FDC00EB28CB /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9821C37528DA504900747AE6 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +96,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9821C37928DA50DD00747AE6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				98594B9F28DA4A0400EB28CB /* AppDelegate.swift */,
+				98594BA128DA4A0400EB28CB /* SceneDelegate.swift */,
+				98594BAA28DA4A0600EB28CB /* LaunchScreen.storyboard */,
+				98594BA528DA4A0400EB28CB /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9821C37A28DA50FB00747AE6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9821C38728DA5F8600747AE6 /* Webview */,
+				9821C37C28DA513100747AE6 /* CommentsViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9821C37B28DA510A00747AE6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9821C38228DA55EB00747AE6 /* CommentsResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9821C37C28DA513100747AE6 /* CommentsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9821C38428DA56D800747AE6 /* ViewModel */,
+				9821C37F28DA51F900747AE6 /* Cell */,
+				9821C37D28DA514000747AE6 /* CommentsViewController.swift */,
+			);
+			path = CommentsViewController;
+			sourceTree = "<group>";
+		};
+		9821C37F28DA51F900747AE6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9821C38028DA520000747AE6 /* CommentsViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9821C38428DA56D800747AE6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9821C38528DA56E500747AE6 /* CommentsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9821C38728DA5F8600747AE6 /* Webview */ = {
+			isa = PBXGroup;
+			children = (
+				9821C38828DA5FA400747AE6 /* WebViewController.swift */,
+			);
+			path = Webview;
+			sourceTree = "<group>";
+		};
+		9821C38A28DA6A3000747AE6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9821C38B28DA6A4F00747AE6 /* Navbar+extension.swift */,
+				9821C38D28DA740F00747AE6 /* Date+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		98594B9328DA4A0400EB28CB = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +190,13 @@
 		98594B9E28DA4A0400EB28CB /* ReignMobileChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				98594B9F28DA4A0400EB28CB /* AppDelegate.swift */,
-				98594BA128DA4A0400EB28CB /* SceneDelegate.swift */,
+				9821C38A28DA6A3000747AE6 /* Extensions */,
+				9821C37B28DA510A00747AE6 /* Models */,
+				9821C37A28DA50FB00747AE6 /* ViewControllers */,
+				9821C37928DA50DD00747AE6 /* Application */,
+				98594BCF28DA4FD100EB28CB /* Networking */,
 				98594BA328DA4A0400EB28CB /* ViewController.swift */,
-				98594BA528DA4A0400EB28CB /* Main.storyboard */,
 				98594BA828DA4A0600EB28CB /* Assets.xcassets */,
-				98594BAA28DA4A0600EB28CB /* LaunchScreen.storyboard */,
 				98594BAD28DA4A0600EB28CB /* Info.plist */,
 			);
 			path = ReignMobileChallenge;
@@ -127,6 +219,15 @@
 			path = ReignMobileChallengeUITests;
 			sourceTree = "<group>";
 		};
+		98594BCF28DA4FD100EB28CB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				98594BD028DA4FDC00EB28CB /* NetworkingManager.swift */,
+				9821C37628DA505F00747AE6 /* Endpoints.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +244,9 @@
 			dependencies = (
 			);
 			name = ReignMobileChallenge;
+			packageProductDependencies = (
+				9821C37428DA504900747AE6 /* Alamofire */,
+			);
 			productName = ReignMobileChallenge;
 			productReference = 98594B9C28DA4A0400EB28CB /* ReignMobileChallenge.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +319,9 @@
 				Base,
 			);
 			mainGroup = 98594B9328DA4A0400EB28CB;
+			packageReferences = (
+				9821C37328DA504900747AE6 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 98594B9D28DA4A0400EB28CB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +365,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9821C38628DA56E500747AE6 /* CommentsViewModel.swift in Sources */,
 				98594BA428DA4A0400EB28CB /* ViewController.swift in Sources */,
+				98594BD128DA4FDC00EB28CB /* NetworkingManager.swift in Sources */,
+				9821C38928DA5FA400747AE6 /* WebViewController.swift in Sources */,
+				9821C38C28DA6A4F00747AE6 /* Navbar+extension.swift in Sources */,
+				9821C38E28DA740F00747AE6 /* Date+Extension.swift in Sources */,
+				9821C38128DA520000747AE6 /* CommentsViewCell.swift in Sources */,
+				9821C37E28DA514000747AE6 /* CommentsViewController.swift in Sources */,
 				98594BA028DA4A0400EB28CB /* AppDelegate.swift in Sources */,
 				98594BA228DA4A0400EB28CB /* SceneDelegate.swift in Sources */,
+				9821C38328DA55EB00747AE6 /* CommentsResponse.swift in Sources */,
+				9821C37728DA505F00747AE6 /* Endpoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +553,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F5RYH9RG5G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ReignMobileChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +581,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F5RYH9RG5G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ReignMobileChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -596,6 +714,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9821C37328DA504900747AE6 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9821C37428DA504900747AE6 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9821C37328DA504900747AE6 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 98594B9428DA4A0400EB28CB /* Project object */;
 }
