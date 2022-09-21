@@ -88,7 +88,7 @@ extension CommentsViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let url = URL(string: viewModel.getCurrentComment(at: indexPath).storyUrl ?? "https://www.google.com") else { return }
-        let vc = WebViewController(url: url, title: viewModel.getCurrentComment(at: indexPath).storyTitle)
+        let vc = WebViewController(url: url, title: viewModel.getCurrentComment(at: indexPath).storyTitle ?? "Default title")
         let navVC = UINavigationController(rootViewController: vc)
         present(navVC, animated: true)
     }
@@ -143,6 +143,10 @@ extension CommentsViewController: CommentsViewDelegate {
     
     func showAlert() {
         let alert = UIAlertController(title: "Error loading data", message: "We coudn't fetch the data", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Try again", style: .default, handler: { [weak self] action in
+            self?.viewModel.getComments()
+            self?.viewModel.isAlreadyFetched = false
+        }))
         self.present(alert, animated: true, completion: nil)
     }
 }

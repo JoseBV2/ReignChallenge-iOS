@@ -63,9 +63,12 @@ final class CommentsViewModel: CommentsViewProtocol {
     }
     
     func setCommentsValue() {
-        guard let data = UserDefaults.standard.value(forKey:"data") as? Data else { return }
+        guard let data = UserDefaults.standard.value(forKey:"data") as? Data else {
+            return
+        }
         let comments = try? PropertyListDecoder().decode(Array<CommentsHitsResponse>.self, from: data)
         guard let comments = comments else {
+            self.delegate?.showAlert()
             return
         }
         self.hits = comments

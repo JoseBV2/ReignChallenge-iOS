@@ -13,9 +13,9 @@ struct CommentsResponse: Codable {
 
 struct CommentsHitsResponse: Codable {
     let author: String
-    let commentText: String
+    let commentText: String?
     let createdAt: String
-    let storyTitle: String
+    let storyTitle: String?
     let storyUrl: String?
     let createdAtI: Int
     
